@@ -94,9 +94,9 @@ analytics:
 author:
   name             : "Your Name"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I am an **amazing** Boy."
   location         : "Somewhere"
-  email            :
+  email            : "perrychuh@163.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -112,10 +112,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/Perrychuh/"
+    - label: "Zhihu"
+      icon: "fab fa-fw fa-zhihu"
+      url: "https://www.zhihu.com/people/perrychuh"
 
 # Site Footer
 footer:
