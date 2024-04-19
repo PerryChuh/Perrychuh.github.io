@@ -1,6 +1,7 @@
 ---
 layout: posts
 type: posts
+comments: true
 ---
 
 $A_2 + 5 = 10$
