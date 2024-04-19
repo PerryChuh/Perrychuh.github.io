@@ -1,6 +1,6 @@
 ---
 layout: posts
-comment: true
+comments: true
 title: "Paper Title Number 1"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
