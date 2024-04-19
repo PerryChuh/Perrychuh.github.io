@@ -1,5 +1,5 @@
 ---
-comments: true
+tpye: publications
 latout: posts
 title: "Paper Title Number 3"
 collection: publications
