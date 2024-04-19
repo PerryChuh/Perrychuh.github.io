@@ -1,5 +1,4 @@
 ---
-comments: true
 latout: posts
 title: "Paper Title Number 2"
 collection: publications
