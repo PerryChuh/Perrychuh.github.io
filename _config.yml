@@ -31,6 +31,13 @@ masthead_title           : # overrides the website title displayed in the masthe
 words_per_minute         : 200
 
 
+
+math:
+  engine: "mathjax" # 或者 "katex"
+
+
+
+
 comments:
   provider: "giscus"
   giscus:
