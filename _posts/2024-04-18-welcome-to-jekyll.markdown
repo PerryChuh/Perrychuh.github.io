@@ -1,7 +1,6 @@
 ---
 layout: posts
 type: posts
-comments: true
 title: "Wellcome to giscus"
 ---
 
