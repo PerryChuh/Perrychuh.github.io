@@ -1,5 +1,5 @@
 ---
-layout: posts
+type: posts
 title: "Paper Title Number 2"
 permalink: /posts/2010-10-01-paper-title-number-2
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
