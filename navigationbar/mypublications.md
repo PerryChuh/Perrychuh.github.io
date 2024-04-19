@@ -1,7 +1,7 @@
 ---
-layout: pages
+layout: publication
 title: "Publications"
-permalink: /publications-year/
+permalink: /mypublications/
 author_profile: true
 ---
 

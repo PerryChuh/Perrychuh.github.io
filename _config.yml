@@ -98,7 +98,7 @@ author:
   location         : "ShenZhen"
   school           : "SUSTech"
   email            : "perrychuh@163.com"
-  github           : "perrychuh" # 这种方式采用了author-profile里的预设文件，下面的links自定义了链接
+  github           : "perrychuh" # 这种方式采用了author-profile里的预设文件，下面的links自定义了链接.注意，links中的内容会优先排序
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -261,6 +261,10 @@ collections:
   publications:
     output: true
     permalink: /publiations/:title
+  notes:
+    output: true
+    permalink: /notes/:title
+
 
 
 
@@ -293,3 +297,12 @@ defaults:
       share: true
       related: true
       show_date: true
+  # _notes
+  - scope:
+      path: "_notes"
+      type: notes
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      read_time: true

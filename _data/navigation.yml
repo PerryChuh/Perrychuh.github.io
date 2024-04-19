@@ -5,8 +5,10 @@ main:
     url: /posts/
   - title: "Categories"
     url: /categories/
-  - title: "tALKS"
-    url: /talks/
+  - title: "Notes"
+    url: /notes/
+  - title: "CV"
+    url: /cv/
   - title: "Publications"
-    url: /publications-year/
+    url: /mypublications/
   
