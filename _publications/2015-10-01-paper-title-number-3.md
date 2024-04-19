@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: posts
 title: "Paper Title Number 3"
 collection: publications
