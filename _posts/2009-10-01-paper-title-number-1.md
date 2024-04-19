@@ -1,4 +1,5 @@
 ---
+tppe: posts
 layout: posts
 comments: true
 title: "Paper Title Number 1"
