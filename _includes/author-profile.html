@@ -31,6 +31,13 @@
         </li>
       {% endif %}
 
+      {% if author.school %}
+        <li itemprop="school" itemscope itemtype="https://schema.org/EducationalOrganization">
+         <i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> <span itemprop="name" class="p-name">{{ author.school }}</span>
+       </li>
+      {% endif %}
+
+
       {% if author.links %}
         {% for link in author.links %}
           {% if link.label and link.url %}

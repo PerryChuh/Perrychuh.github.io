@@ -96,8 +96,9 @@ author:
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** Boy."
   location         : "ShenZhen"
+  school           : "SUSTech"
   email            : "perrychuh@163.com"
-  github           : "perrychu"
+  github           : "perrychuh" # 这种方式采用了author-profile里的预设文件，下面的links自定义了链接
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
