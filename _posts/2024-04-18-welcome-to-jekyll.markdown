@@ -2,6 +2,7 @@
 layout: posts
 type: posts
 comments: true
+title: "Wellcome to giscus"
 ---
 
 $A_2 + 5 = 10$
