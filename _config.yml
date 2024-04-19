@@ -31,6 +31,23 @@ masthead_title           : # overrides the website title displayed in the masthe
 words_per_minute         : 200
 
 
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id              : "R_kgDOHTA2SA"  # Shown during giscus setup at https://giscus.app
+    category_name        : "Announcements"  # Full text name of the category
+    category_id          : "DIC_kwDOHTA2SM4CPA65"  # Shown during giscus setup at https://giscus.app
+    discussion_term      : "pathname"  # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
+    theme                : "light" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    input_position       : "top"
+
+analytics:
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : G-GHRW5HQQ0V
+    anonymize_ip         : false # true, false (default)
+
 
 # SEO Related
 google_site_verification :
