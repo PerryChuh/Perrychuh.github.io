@@ -1,5 +1,4 @@
 ---
-layout: posts
 type: posts
 title: "Wellcome to giscus"
 permalink: /posts/2024-04-18-welcome-to-jekyll
