@@ -62,10 +62,9 @@ markdown: kramdown
 
 
 # Build settings
-# theme: minimal-mistakes-jekyll
-# minimal_mistakes_jekyll:
-#   version: 4.24.0
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
+minimal_mistakes_jekyll:
+  version: 4.24.0
 
 
 author:
