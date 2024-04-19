@@ -1,9 +1,5 @@
-# Jekyll generated files
+_site
+.sass-cache
 .jekyll-cache
 .jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site
-
-# IDE settings
-.vscode/
+vendor
