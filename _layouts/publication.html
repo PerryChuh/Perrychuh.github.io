@@ -1,16 +1,18 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="entries-list">
+  {% assign entries_layout = page.entries_layout | default: 'list' %}
+  {% assign publicationsByYear = site.publications | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% for year in publicationsByYear %}
+    <section class="taxonomy__section">
+      <h2 class="archive__subtitle">{{ year.name }}</h2>
+      <div class="entries-{{ entries_layout }}">
+        {% for post in year.items %}
+          {% include archive-single.html type=entries_layout %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+</div>

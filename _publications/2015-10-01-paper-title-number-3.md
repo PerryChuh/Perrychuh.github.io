@@ -1,7 +1,6 @@
 ---
 tpye: publications
 title: "Paper Title Number 3"
-collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
 date: 2015-10-01
 ---
