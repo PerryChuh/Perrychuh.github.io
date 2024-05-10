@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: posts
 permalink: /materials/
 excerpt: "This page contains the materials I have studied or taught."
 header:
