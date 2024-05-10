@@ -7,5 +7,7 @@ main:
     url: /mypublications/    
   - title: "CV"
     url: /cv/
+  - title: "Site Map"
+    url: /sitemap/
 
   
