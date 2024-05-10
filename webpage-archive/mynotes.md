@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Some Notes"
-permalink: /notes/
+permalink: /mynotes/
 author_profile: true
 ---
 

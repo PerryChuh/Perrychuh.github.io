@@ -2,7 +2,7 @@ main:
   - title: "Posts"
     url: /posts/
   - title: "Notes"
-    url: /notes/
+    url: /mynotes/
   - title: "Publications"
     url: /mypublications/    
   - title: "CV"
