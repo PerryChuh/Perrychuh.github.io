@@ -6,7 +6,6 @@ header:
   overlay_image: /assets/images/heads.jpg
   overlay_filter: 0.5
 title: "Materials"
-author_profile: false
 comments: true
 ---
 ## Materials of Required or Elective Subjects:
